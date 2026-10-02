@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SADHGURU AUTO SERVICE</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0a0a0a;color:#ffffff}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;background:#000000;border-bottom:1px solid #222222}
+.logo{font-weight:900;font-size:20px}.logo span{color:#e11d24}
+.nav a{color:#bbbbbb;text-decoration:none;margin:0 10px;font-size:14px}
+.btn-red{background:#e11d24;color:#ffffff;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:700;font-size:13px;display:inline-block;border:0}
+.hero{display:flex;flex-wrap:wrap;align-items:center;padding:50px 24px;background:#000000}
+.hero-left{flex:1;min-width:300px}
+.hero-right{flex:1;min-width:300px;background:#111111;border:1px solid #222222;border-radius:16px;height:380px;display:flex;align-items:center;justify-content:center}
+.hero h1{font-size:48px;line-height:1.1;font-weight:900}.hero h1 span{color:#e11d24}
+.hero p{color:#aaaaaa;margin:18px 0;line-height:1.6}
+.stats{display:flex;gap:24px;margin-top:24px}.stats h2{color:#e11d24}
+.features{padding:50px 24px}
+.title{text-align:center;margin-bottom:32px}.title h2{font-size:32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:#141414;border:1px solid #222222;padding:22px;border-radius:12px;border-left:3px solid #e11d24}
+.card h3{margin-bottom:6px;color:#ffffff}.card p{color:#777777;font-size:13px}
+.strip{background:#e11d24;padding:40px 24px;text-align:center}
+.coupon{border:2px dashed #ffffff;padding:10px 20px;border-radius:8px;display:inline-block;margin:12px 0;background:#000000;color:#ffffff}
+.form-wrap{display:flex;flex-wrap:wrap;gap:30px;padding:50px 24px;background:#000000}
+.form-box{background:#111111;padding:24px;border-radius:12px;border:1px solid #222222;flex:1;min-width:300px}
+.input{width:100%;padding:12px;margin:8px 0;background:#0a0a0a;color:#ffffff;border:1px solid #333333;border-radius:8px}
+</style>
+</head>
+<body>
+
+<div class="nav">
+<div class="logo">SADHGURU <span>AUTO SERVICE</span></div>
+<div><a href="index.html">Home</a><a href="services.html">Services</a><a href="contact.html">Contact</a><a class="btn-red" href="#book">BOOK NOW</a></div>
+</div>
+
+<div class="hero">
+<div class="hero-left">
+<h1>WE CARE FOR<br>YOUR CAR <span>AS<br>YOU DO</span></h1>
+<p>Expert care for all car brands at 46, Ayodhya Bypass Rd, Bhopal. Trusted by 2000+ customers.</p>
+<a class="btn-red" href="services.html">OUR SERVICES</a>
+<a style="background:#ffffff;color:#000000;padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:700;margin-left:10px;font-size:13px" href="https://wa.me/9999999998">WHATSAPP US</a>
+<div class="stats">
+<div><h2>2000+</h2><p>Clients</p></div>
+<div><h2>10+</h2><p>Years</p></div>
+<div><h2>4.8★</h2><p>Rating</p></div>
+</div>
+</div>
+<div class="hero-right" style="padding:0; overflow:hidden;">
+  <img src="car.jpg" alt="Sadhguru Auto Service" style="width:100%; height:100%; object-fit:cover; border-radius:16px;">
+</div>
+</div>
+
+<div class="features">
+<div class="title"><h2>Why Choose Us</h2><p style="color:#666666">Professional service with personal care</p></div>
+<div class="grid">
+<div class="card"><h3>Certified Technicians</h3><p>Trained experts for all major brands.</p></div>
+<div class="card"><h3>Complete Car Care</h3><p>One stop solution for everything.</p></div>
+<div class="card"><h3>Advanced Diagnostics</h3><p>Latest scanners for accurate detection.</p></div>
+<div class="card"><h3>Genuine Oils & Parts</h3><p>Only original oils and parts with warranty.</p></div>
+<div class="card"><h3>Multi-Brand Service</h3><p>Maruti, Hyundai, Tata, Honda & all brands.</p></div>
+<div class="card"><h3>24/7 Support</h3><p>Always available on WhatsApp.</p></div>
+</div>
+</div>
+
+<div class="strip" id="book">
+<h2>Ready to Service Your Car?</h2>
+<div class="coupon">10% OFF OFFER IS LIVE NOW  HURRY UP!!</div><br>
+<a style="background:#000000;color:#ffffff;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:800;display:inline-block" href="https://wa.me/9999999998?text=Hi, Booking for Sadhguru Auto - Coupon SADHGURU10">BOOK ON WHATSAPP</a>
+</div>
+
+<div class="form-wrap">
+<div style="flex:1;min-width:300px"><h2 style="font-size:34px">Book Your Service<br><span style="color:#e11d24">In 30 Seconds</span></h2><p style="color:#777777;margin-top:12px">Booking direct aapke WhatsApp 999999999 par jayegi.</p><p style="margin-top:20px">📍 46 Ayodhya Bypass Rd, Bhopal</p><p>📞 999999999</p></div>
+<div class="form-box">
+<input class="input" id="n" placeholder="Full Name">
+<input class="input" id="c" placeholder="Car Model & Number">
+<select class="input" id="s"><option>Periodic Service</option><option>AC Service</option><option>Denting Painting</option><option>Oil Change</option></select>
+<input class="input" type="date" id="d">
+<button class="btn-red" style="width:100%;padding:14px;margin-top:10px" onclick="send()">SEND TO WHATSAPP</button>
+</div>
+</div>
+
+<script>
+function send(){
+var n=document.getElementById('n').value;
+var c=document.getElementById('c').value;
+var s=document.getElementById('s').value;
+var d=document.getElementById('d').value;
+var msg="*NEW BOOKING*%0AName: "+n+"%0ACar: "+c+"%0AService: "+s+"%0ADate: "+d+"%0ACoupon: SADHGURU10";
+window.open("https://wa.me/9999999998?text="+msg,"_blank");
+}
+</script>
+</body>
+</html>

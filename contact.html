@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Contact & Offers</title>
+<style>
+*{margin:0;font-family:Arial}body{background:#0a0a0a;color:#fff}.nav{background:#000;padding:15px 30px;display:flex;justify-content:space-between;border-bottom:2px solid #e11d24}.nav a{color:#fff;text-decoration:none;margin:0 10px}.btn{background:#e11d24;color:#fff;padding:12px 20px;border:none;border-radius:8px;font-weight:bold;cursor:pointer;width:100%}
+.head{padding:40px 60px;background:#000;border-bottom:1px solid #e11d24}.wrap{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:30px}@media(max-width:800px){.wrap{grid-template-columns:1fr}}
+.box{background:#111;border:1px solid #222;border-radius:12px;padding:25px}.coupon{border:2px dashed #e11d24;padding:20px;text-align:center;background:#1a0a0a;border-radius:12px}.code{font-size:32px;color:#e11d24;font-weight:900;margin:15px 0}
+input,textarea{width:100%;padding:12px;margin:8px 0;background:#000;color:#fff;border:1px solid #333;border-radius:6px}
+</style></head><body>
+<div class="nav"><div style="font-weight:900;color:#e11d24">SADHGURU AUTO SERVICE</div><div><a href="index.html">Home</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div></div>
+<div class="head"><h1>Contact & Offers</h1><p>We're here to help - reach out or claim your exclusive offer today</p></div>
+<div class="wrap">
+<div>
+<div class="box coupon"><h2 style="color:#e11d24">🎁 SPECIAL OFFER - 10% OFF</h2><h3>SAVE 10% ON YOUR NEXT SERVICE</h3><p style="font-size:12px;opacity:.7">Limited offer hurry up!! • All servicing, repairs & maintenance. T&C apply.</p><br><button class="btn" onclick="navigator.clipboard.writeText('SADHGURU10');alert('Coupon Copied!')">Copy Coupon Code</button></div>
+<div class="box" style="margin-top:20px;text-align:center"><h3>Thank you for choosing us</h3><p style="opacity:.7;margin-top:10px">Join 2000+ satisfied customers in Bhopal who trust SADHGURU AUTO SERVICE for reliable service.</p><p style="margin-top:15px">✓ Warranty on Repairs &nbsp; ★ Rated 4.8/5 &nbsp; ◷ Quick Turnaround</p></div>
+</div>
+<div class="box"><h2 style="color:#e11d24">Contact Us</h2><input placeholder="Full Name" id="n"><input placeholder="Email Address"><input value="999999999" id="p"><textarea placeholder="How can we help you?" id="m"></textarea><button class="btn" onclick="sendWA()">Send Message ✈</button>
+<div style="margin-top:25px"><h3 style="color:#e11d24">Contact Information</h3><p>📍1 Bhopal</p><p>📞 +9199999999</p><p>🕒 Mon - Sat: 9:00 AM - 7:00 PM | Sun: Closed</p><div style="margin-top:15px;background:#000;height:150px;border-radius:10px;display:flex;align-items:center;justify-content:center;border:1px solid #333">📍 SADHGURU AUTO SERVICE - Map - Ayodhya Bypass Rd</div></div></div>
+</div>
+<script>
+function sendWA(){let name=document.getElementById('n').value;let msg=document.getElementById('m').value;let url=`https://wa.me/9999999998?text=Contact Enquiry%0AName:${name}%0AMsg:${msg}%0ACoupon:SADHGURU10`;window.open(url,'_blank')}
+</script>
+</body></html>
